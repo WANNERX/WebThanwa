@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="CSS/STYLESHEET.css">
+    <script>            
+var UseUnit="1";
+var PricePerUnit="100";
+var Total=UseUnit*PricePerUnit;
+var vat=Total*0.07;
+var net=Total+vat;
+function myF1(){
+    document.getElementById("UseUnit").innerHTML=UseUnit;
+    document.getElementById("PricePerUnit").innerHTML=PricePerUnit;
+    document.getElementById("Total").innerHTML=Total;
+    document.getElementById("vat").innerHTML=vat;
+    document.getElementById("net").innerHTML=net;
+    } 
+    </script>
+
+</head>
+<body>
+    <center>
+    <fieldset>
+    <legend><h2>โปรแกรมคำนวนค่าเน็ต(GB)</h2></legend>
+    <table border="0">
+        <img src="Images/network.jpg" width="500px">
+    <tr>
+            <td>ปริมาณที่ใช้</td>
+            <td>:</td>
+            <td id="UseUnit"></td> 
+    </tr>
+    <tr>
+            <td>ราคาต่อหน่วย</td>
+            <td>:</td>
+            <td id="PricePerUnit"></td>
+    </tr>
+    <tr>
+            <td>ราคา</td>
+            <td>:</td>
+            <td id="Total"></td>
+    </tr>
+    <tr>
+            <td>ราคารวมภาษี</td>
+            <td>:</td>
+            <td id="vat"></td>
+    </tr>
+    <tr>
+            <td>ราคาสุทธิ</td>
+            <td>:</td>
+            <td id="net"></td>
+    </tr>
+    
+    </table>
+    <input type="button" value="คำนวน" onclick="myF1();">
+
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="CSS/STYLESHEET.css">
+    <script>            
+var EnterHour=7;
+var PricePerHour=150;
+var Pay=1000;
+var Total=EnterHour*PricePerHour;
+var Change=Pay-Total;
+    </script>
+
+</head>
+<body>
+    <center>
+        <fieldset>
+        <legend><h2>โปรแกรมคำนวนค่าสอนพิเศษ(fitness)</h2></legend>
+        <table border="0">
+            <img src="Images/trainer.jpg" width="500px">
+        <tr>
+                <td>เวลาเรียน</td>
+                <td>:</td>
+                <td><script>document.write(EnterHour)</script></td> 
+        </tr>
+        <tr>
+                <td>ราคาต่อชั่วโมง</td>
+                <td>:</td>
+                <td><script>document.write(PricePerHour)</script></td>
+        </tr>
+        <tr>
+                <td>จ่าย</td>
+                <td>:</td>
+                <td><script>document.write(Pay)</script></td>
+        </tr>
+        <tr>
+                <td>ราคารวม</td>
+                <td>:</td>
+                <td><script>document.write(Total)</script></td>
+        </tr>
+        <tr>
+                <td>ทอน</td>
+                <td>:</td>
+                <td><script>document.write(Change)</script></td>
+        </tr>
+        
+        </table>
+        
+        </fieldset>
+    </center>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="CSS/STYLESHEET.css">
+    <script>            
+var Ticket=120;
+var people=500;
+var total=Ticket*people;
+function myF1(){
+    document.getElementById("Ticket").innerHTML=Ticket;
+    document.getElementById("people").innerHTML=people;
+    document.getElementById("total").innerHTML=total;
+    } 
+    </script>
+
+</head>
+<body>
+    <center>
+    <fieldset>
+    <legend><h2>โปรแกรมคำนวนค่าตั๋วโรงหนัง Major</h2></legend>
+    <table border="0">
+        <img src="Images/Major.png" width="500px">
+    <tr>
+            <td>ราคาตั๋วใบละ</td>
+            <td>:</td>
+            <td id="Ticket"></td> 
+    </tr>
+    <tr>
+            <td>จำนวนผู้ชม</td>
+            <td>:</td>
+            <td id="people"></td>
+    </tr>
+    <tr>
+            <td>รวม</td>
+            <td>:</td>
+            <td id="total"></td>
+    </tr>
+    
+    </table>
+    <input type="button" value="คำนวน" onclick="myF1();">
+
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body
+{background-color: #ff3e96;
+margin-left: 50px;
+margin-right: 50px;
+text-align: center;
+letter-spacing: 1px;
+word-spacing: 10px;
+
+
+}
+h1
+{
+text-align: center;background-color:#ff82ab;
+text-decoration: overline  darkblue double ;
+letter-spacing: 10px;
+text-shadow: 2px 1px whitesmoke;
+color: #cccccc;
+font-size: 50px;
+font-family: 'Franklin Gothic Medium'
+
+
+}
+#d1
+{
+border: 1: dotted;
+text-decoration: line-through;
+line-height: 0.8;
+
+
+}
+#b1
+{
+    
+}
+#d1:hover
+{line-height: 1;}
+div
+{
+text-indent: 50px;
+
+}
+#div1
+{
+background-color: black    
+}
+a
+{
+text-decoration: none;
+display: inline-block
+}
+a:link,a:visited
+{
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a:hover,a:active
+{
+background-color:white;
+color: black;
+letter-spacing: 0px;
+text-decoration-line: line-through;
+border: 1px double black;
+border-radius: 50px
+
+}
