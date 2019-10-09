@@ -1,23 +1,25 @@
 body
 {
-background-color:#292929;
-color:#ffd700; 
+background-color:#005582;
+font-family: cursive;
+color:black; 
 text-align: left;
 margin-top: 20px ;
 padding: 60px
 }
 #HOME11111
 {
-color:#ffd700;
+color:#daf8e3;
 font-size: 65px;
 }
 h1
 {
-background-color:#ffd700;
+background-color:#97ebdb;
+color: 000#;
 }
 a:link, a:visited 
 {
-background-color:#1b1b1b;
+background-color:#00c2c7;
 color:whitesmoke; 
 padding: 10px 20px; 
 text-decoration: none; 
@@ -29,7 +31,7 @@ a:hover, a:active
 background-color:whitesmoke; 
 letter-spacing: 4px; 
 color:black;
-border-color: #ffd700; border-style: double; padding: 15px; border-radius:1px;
+border-color: #daf8e3; border-style: double; padding: 15px; border-radius:1px;
 animation: shake 0.5s;
 animation-iteration-count: infinite;
 }
@@ -54,8 +56,8 @@ animation-iteration-count: infinite;
 {
     width: 300px;
     height: 300px;
-    -webkit-transition: width 2s, height 4s;
-    transition: width 2s, height 4s;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
 }
 #WC2P:hover {
     width: 500px;
@@ -68,12 +70,12 @@ animation-iteration-count: infinite;
   
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #ffd700; 
+    background: #daf8e3; 
 }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #1b1b1b; 
+    background: #00c2c7; 
 }
   
 /* Handle on hover */
@@ -82,6 +84,24 @@ animation-iteration-count: infinite;
 }
 #www
 {
-    color: #ffd700;
-    background-color:#ffd700;
+    color: #daf8e3;
+    background-color:#daf8e3;
 }
+.glow {
+    font-size: 80px;
+    color: red;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
+    }
+    
+    to {
+      text-shadow: 0 0 20px red, 0 0 30px red4da6, 0 0 40px red4da6, 0 0 50px red4da6, 0 0 60px red4da6, 0 0 70px red4da6, 0 0 80px red4da6;
+    }
+  }
