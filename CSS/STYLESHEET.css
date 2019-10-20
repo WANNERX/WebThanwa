@@ -1,26 +1,25 @@
 body
 {
-background-color:#005582;
-font-family: cursive;
-color:black; 
+background-color:#00c2c7;
+color:white; 
 text-align: left;
 margin-top: 20px ;
 padding: 60px
 }
 #HOME11111
 {
-color:#daf8e3;
+color:#0086ad;
 font-size: 65px;
 }
 h1
 {
-background-color:#97ebdb;
-color: 000#;
+color: white;
+background-color:#0086ad;
 }
 a:link, a:visited 
 {
 background-color:#00c2c7;
-color:whitesmoke; 
+color:white; 
 padding: 10px 20px; 
 text-decoration: none; 
 display:block; 
@@ -28,10 +27,10 @@ font-size: 20px;
 }  
 a:hover, a:active 
 { 
-background-color:whitesmoke; 
+background-color:#daf8e3; 
 letter-spacing: 4px; 
 color:black;
-border-color: #daf8e3; border-style: double; padding: 15px; border-radius:1px;
+border-color: #0086ad; border-style: double; padding: 15px; border-radius:1px;
 animation: shake 0.5s;
 animation-iteration-count: infinite;
 }
@@ -48,20 +47,16 @@ animation-iteration-count: infinite;
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); } 
 }
-#h1TEXTBLACK
-{
-    color: black
-}  
 #WC2P
 {
-    width: 300px;
+    width: 600px;
     height: 300px;
-    -webkit-transition: width 1s, height 1s;
-    transition: width 1s, height 1s;
+    -webkit-transition: width 2s, height 3s;
+    transition: width 2s, height 3s;
 }
 #WC2P:hover {
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 400px;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -70,7 +65,7 @@ animation-iteration-count: infinite;
   
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #daf8e3; 
+    background: #0086ad; 
 }
    
   /* Handle */
@@ -80,28 +75,10 @@ animation-iteration-count: infinite;
   
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #292929;
+    background: #00c2c7;
 }
 #www
 {
-    color: #daf8e3;
-    background-color:#daf8e3;
+    color: #0086ad;
+    background-color:#0086ad;
 }
-.glow {
-    font-size: 80px;
-    color: red;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
-    }
-    
-    to {
-      text-shadow: 0 0 20px red, 0 0 30px red4da6, 0 0 40px red4da6, 0 0 50px red4da6, 0 0 60px red4da6, 0 0 70px red4da6, 0 0 80px red4da6;
-    }
-  }
